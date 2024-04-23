@@ -1,0 +1,278 @@
+<!-- Código del Proyecto Final de la materia de Desarrollo Web 1 -->
+<!-- Instituto Tecnológico Quito -->
+<!-- Docente: Ing. Elvis Pachacama -->
+<!-- Carrera: Segundo Nivel de Desarrollo de Software -->
+<!-- Desarrolladores:
+       Cristian Andrés Villacís Mendoza  [andrakolis]
+       Gabriel Ronaldo Quijije Pazmiño   [vanship]
+       Esteban Ismael Anrrango Canencia  [ismael]
+       Jordan Omar Briones Rivadeneira   [jordan] -->
+
+<!-- Fecha: 22/04/2024 -->
+
+<!DOCTYPE html> <!-- Este código establece el doctype HTML5 y proporciona una estructura básica para tu página web. -->
+<html lang="en">
+
+<!-- Inicio del <head>, esta es considerada la cabeza del código, aquí se realizan las conexiones 
+    a archivos como CSS, JS, entre otros. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estiloProyectoFinal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>Café Élite</title>
+</head>
+
+
+<body><!-- Inicio del <body>, el body -->
+
+
+    <header> <!-- Un Header -->
+
+        <div class="contenedor"> <!-- El Div-->
+            <!-- Class-->
+            <nav class="menu"> <!-- Nav -->
+
+                <a href="#" id="boton-acerca-de">Acerca de </a>
+                <!-- a -->
+                <a href="#" id="boton-menu"> Menú</a>
+                <!-- href -->
+                <a href="#" id="boton-galeria">Galeria</a>
+                <!-- id -->
+                <a href="#" id="boton-ubicacion">Ubicación</a>
+
+            </nav>
+            <div>
+                <h1> <span>Estefanía Morales</span></h1> <!-- Un Span -->
+                <div class="contenedorlogo"></div>
+
+
+                <h3>Centros Esteticos </h3> <!-- el h1, h2. h3. -->
+            </div>
+        </div>
+
+    </header>
+    <!--inicio seccion main-->
+
+    <section>
+        <!--inicio seccion acerca de-->
+        <section> <!-- Una sección -->
+            <div>
+                <div>
+                    <br></br>
+                    <img src="imagenes/cafeterias-napoles-moji-cafe.jpg" alt="acercade " class="acercade">
+                    <br></br>
+                </div>
+                <hr>
+
+                <article>
+                    <h1> ACERCA DE NOSOTROS</h1>
+                    <p>En Café Élite, nos enorgullece ofrecer una experiencia única para los amantes del buen café y la
+                        elegancia.
+                        Situada en el corazón de la ciudad, nuestra cafetería es un destino exclusivo donde el lujo se
+                        combina con la pasión por el café.
+                        Desde nuestra cuidadosa selección de los mejores granos de café hasta la meticulosa preparación
+                        de cada bebida por parte de nuestros expertos baristas,
+                        nos esforzamos por ofrecer solo lo mejor a nuestros distinguidos clientes.
+                        Nuestro espacio elegante y sofisticado ofrece un ambiente acogedor para aquellos que buscan una
+                        experiencia de café excepcional.</p>
+
+                    <p>En Café Élite, cada taza es una obra maestra, una experiencia sensorial que deleita los sentidos
+                        y despierta los sentimientos más exquisitos.
+                        Ya sea que estés buscando un momento de tranquilidad para disfrutar de tu café favorito o un
+                        lugar elegante para reunirte con amigos y colegas,
+                        Café Élite te ofrece un escape refinado donde cada momento se convierte en un placer supremo.
+                        Descubre la excelencia en cada sorbo y únete a nosotros en Café Élite, donde el café se
+                        encuentra con el lujo en una experiencia incomparable.</p>
+
+                </article>
+            </div>
+        </section>
+        <!--fin seccion acerca de-->
+
+        <hr>
+
+        <!--inicio menu-->
+        <section class="Menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="platos-disponibles"> MENU</h3>
+                <hr>
+                <div class="contenedor-menu1">
+                    <div class="contenedor-menu2">
+                        <article class="bebidas">
+                            <p class="categoria">Bebidas caliente</p>
+                            <div class="bebidas">
+                                <p class="nombre">Espresso Élite</p>
+                                <p class="precio">$4.00</p>
+                                <p class="descripcion">Una dosis concentrada de café expreso, perfectamente equilibrada
+                                    y aromática.
+                                    Disfruta de un sabor intenso en cada sorbo de nuestro espresso premium.</p>
+                            </div>
+                            <div class="bebidas">
+                                <p class="nombre">Cappuccino Clásico</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Una mezcla armoniosa de espresso, leche vaporizada y una capa
+                                    generosa de espuma de leche.
+                                    Este clásico italiano te envolverá en una experiencia de café suave y cremosa.</p>
+                            </div>
+                            <div class="bebidas">
+                                <p class="nombre">Latte Caramelo</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Un latte indulgente adornado con jarabe de caramelo y rematado
+                                    con una capa de espuma de leche.
+                                    Deléitate con la combinación perfecta de café y dulzura en cada sorbo.</p>
+                            </div>
+                        </article>
+                        <!--fin seccion bebidas calientes-->
+
+                        <!--inicio seccion desayunos-->
+                        <article>
+                            <hr>
+                            <p class="categoria">Desayunos</p>
+                            <div class="desayuno">
+                                <p class="nombre">Desayuno Continental</p>
+                                <p class="precio">$2.50</p>
+                                <p class="descripcion">Una selección de panes recién horneados, como croissants y
+                                    bagels,
+                                    servidos con mantequilla, mermelada y una selección de quesos y embutidos.</p>
+                            </div>
+                            <div class="desayuno">
+                                <p class="nombre">Avena de la Casa</p>
+                                <p class="precio">$1.50</p>
+                                <p class="descripcion">Avena cremosa cocida a la perfección,
+                                    adornada con frutas frescas de temporada, nueces tostadas y un toque de miel o
+                                    jarabe de arce.</p>
+                            </div>
+                        </article>
+                        <!--fin seccion desayunos-->
+
+                        <!--inicio seccion sanduches y ensaladas-->
+                        <article>
+                            <hr>
+                            <p class="categoria">Sanduches y Ensaladas</p>
+                            <div class="sanduches">
+                                <p class="nombre">Sándwich de Pavo y Aguacate</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Pavo ahumado, aguacate fresco, lechuga, tomate y mayonesa,
+                                    servidos en pan integral o multigrano.
+                                    Acompañado de una guarnición de chips o ensalada verde.</p>
+                            </div>
+                            <div class="sanduches">
+                                <p class="nombre">Ensalada César de Pollo a la Parrilla</p>
+                                <p class="precio">$4.50</p>
+                                <p class="descripcion">Pollo a la parrilla, crutones de pan integral, lechuga romana,
+                                    queso parmesano rallado y aderezo César casero.
+                                    Una opción ligera y sabrosa para el almuerzo.</p>
+                            </div>
+                        </article>
+                        <!--fin seccion sanduches-->
+
+                        <!--inicio seccion bocadillos y tapas-->
+                        <article>
+                            <hr>
+                            <p class="categoria">bocadillos y Tapas</p>
+                            <div class="bocadillos">
+                                <p class="nombre">Tabla de Quesos y Embutidos</p>
+                                <p class="precio">$5.50</p>
+                                <p class="descripcion">Una selección de quesos artesanales, como brie, gouda y cheddar,
+                                    acompañados de una variedad de embutidos, frutos secos y aceitunas.
+                                    Perfecto para compartir o disfrutar como tentempié.</p>
+                            </div>
+                            <div class="bocadillos">
+                                <p class="nombre">Tostadas de Aguacate y Huevo</p>
+                                <p class="precio">$4.50</p>
+                                <p class="descripcion">Tostadas de pan integral cubiertas con puré de aguacate fresco y
+                                    huevo pochado, aderezadas con un toque de pimienta roja triturada y sal marina.
+                                    Una opción nutritiva y satisfactoria para cualquier momento del día.</p>
+                            </div>
+                        </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+        <!--fin menu-->
+
+        <!--inicia galeria de fotos-->
+        <h1 class="titulogaleria">GALERIA</h1>
+        <hr>
+        <br></br>
+        <section class="galeria" id="galeria">
+            <div class="fotos">
+                <img src="imagenes/jugos_y_batidos_saludables_nutritivos-hiraoka.webp" class="foto1" alt="">
+            </div>
+            <div class="fotos">
+                <img src="imagenes/desayuno.jpg" class="foto2" alt="">
+            </div>
+            <div class="fotos">
+                <img src="imagenes/sanduche.jpg" class="foto3" alt="">
+            </div>
+            <div class="fotos">
+                <img src="imagenes/cafe espuma.jpg" class="foto4" alt="">
+            </div>
+            <div class="fotos">
+                <img src="imagenes/cafe pastel.jpg" class="foto5"" alt="">
+    </div>
+    <div class=" fotos">
+                <img src="imagenes/desayuno jugo naranja.webp" class="foto6" alt="">
+            </div>
+
+        </section>
+
+        <!--seccion ubicacion-->
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">DONDE NOS UBICAMOS</h3>
+            </div>
+            <div class="direccion">
+                <p class="calle">Calle de las Flores y Amazonas </p>
+                <p class="ciudad">Ciudad Quito-Ecuador </p>
+                <p class="telefono">(+593) 0984587135 </p>
+                <p class="correo">info@cafeelite.com </p>
+            </div>
+            <div class="horarios">
+                <h1>Horarios</h1>
+                <p class="entre semana"> Lunes a Viernes <br> 9:00 - 19:00 </p>
+                <p class="fin de semana">Sabados y domingos <br> 10:00 - 20:00</p>
+
+            </div>
+
+        </section>
+
+        <!--fin seccion contactos-->
+
+        <!--inicia seccion mapa-->
+
+        <section class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1994.8967191700438!2d-78.49084531832327!3d-0.20235035257628492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssector%20Amazonas!5e0!3m2!1ses!2sec!4v1713547156648!5m2!1ses!2sec"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!--fin seccion mapa-->
+
+    </section>
+    <!--fin seccion main-->
+
+    <footer>
+        <div class="contenedor2">
+            <div class="copyright">
+                <p> &copy; Derechos Reservados Ahois'jh &reg; &copy; Estefanía Morales en 2024 &raquo;
+                    [andrakolis][vanship][ismael][jordan] </p>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
